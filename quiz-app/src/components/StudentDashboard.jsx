@@ -11,6 +11,7 @@ const StudentDashboard = ({ currentUser, onLogout, onStartQuiz }) => {
     const userSubmission = submissions.find(s => s.studentName === currentUser);
     
     if (userSubmission) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setHasCompleted(true);
       setResult(userSubmission);
     }
