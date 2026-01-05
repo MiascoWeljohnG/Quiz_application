@@ -1,0 +1,153 @@
+.loginbody{
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #ab2c2c, #fb923c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.login-button {
+  width: 100%;
+  background-color: #ff9130;
+  color: #ffffff;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+.login-button:hover {
+  background-color: #9b4611;
+}
+.input-field {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  outline: none;
+}
+.input-field:focus {
+  box-shadow: 0 0 0 2px #bb580d;
+  border-color: transparent;
+}
+.label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+.studashbody{
+  min-height: 100vh;
+  background: linear-gradient(to bottom right,#ab2c2c, #fb923c);
+  padding: 1rem;
+}
+th{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+}
+.logout-button {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+.logout-button:hover {
+  background-color: #c53030;
+  color: white;
+}
+.instrudashbody{
+  min-height: 100vh;
+  background: linear-gradient(to bottom right,#ab2c2c, #fb923c);
+  padding: 1rem;
+}
+.awardicon {
+  width: 4rem;
+  height: 4rem;
+  color: #ff9130;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.clock-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #ab2c2c;
+}
+.submit-button {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #ff9130;
+  color: #ffffff;
+  border-radius: 0.5rem;
+}
+.submit-button:hover {
+  background-color: #9b4611;
+}
+.next-button{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #ff9130;
+  color: #ffffff;
+  border-radius: 0.5rem;
+}
+.next-button:hover {
+  background-color: #9b4611;
+}
+.previous-button {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+
+.previous-button:hover {
+  background-color: #f9fafb;
+}
+
+.previous-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.option {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 0.5rem;
+}
+.option:hover {
+  background-color: #9b4611;
+  color: #28d11c;
+}
+.error-message {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
